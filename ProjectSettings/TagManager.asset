@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - enemy
+  - End
+  - GameStart
+  - Bullet
+  - PlayAgain
   layers:
   - Default
   - TransparentFX
@@ -11,6 +16,10 @@ TagManager:
   - 
   - Water
   - UI
+  - enemy
+  - Player
+  - GameStart
+  - PlayAgain
   - 
   - 
   - 
@@ -31,11 +40,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Bullet
   - 
   m_SortingLayers:
   - name: Default
